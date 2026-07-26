@@ -1,0 +1,44 @@
+# BLACKTERM // SENTINEL
+
+# Compiled binaries
+sentinel.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Sentinel runtime data
+.sentinel/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Scan/report output
+reports/
+output/
+exports/
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+vendor/
+coverage.out
+*.test
+
+# Temporary files
+tmp/
+temp/
